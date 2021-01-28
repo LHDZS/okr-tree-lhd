@@ -1,0 +1,82 @@
+{
+  "_from": "vue-okr-tree",
+  "_id": "vue-okr-tree@1.0.6",
+  "_inBundle": false,
+  "_integrity": "sha1-nMedaXgApBu2ibN4Kq/8fJSmLDg=",
+  "_location": "/vue-okr-tree",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "vue-okr-tree",
+    "name": "vue-okr-tree",
+    "escapedName": "vue-okr-tree",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/vue-okr-tree/download/vue-okr-tree-1.0.6.tgz",
+  "_shasum": "9cc79d697800a41bb689b3782aaffc7c94a62c38",
+  "_spec": "vue-okr-tree",
+  "_where": "E:\\home\\bpo-app-platform-master",
+  "author": {
+    "name": "前端小智",
+    "email": "449245884@qq.com",
+    "url": "https://github.com/qq449245884"
+  },
+  "bugs": {
+    "url": "https://github.com/qq449245884/vue-okr-tree/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "core-js": "^2.6.5",
+    "github-markdown-css": "^4.0.0",
+    "prismjs": "^1.22.0",
+    "vue": "^2.6.10"
+  },
+  "deprecated": false,
+  "description": "一个特殊布局模式结构的`vue Tree`组件",
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.5",
+    "@vue/cli-plugin-eslint": "^3.0.5",
+    "@vue/cli-service": "^3.0.5",
+    "@vue/eslint-config-prettier": "^5.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "prettier": "^1.18.2",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "homepage": "https://github.com/qq449245884/vue-okr-tree#readme",
+  "keywords": [
+    "vue-chart",
+    "vue-tree",
+    "org-tree",
+    "chart",
+    "tree",
+    "org",
+    "okr",
+    "vue-ork-tree"
+  ],
+  "license": "MIT",
+  "main": "dist/vue-okr-tree.umd.min.js",
+  "name": "vue-okr-tree",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qq449245884/vue-okr-tree.git"
+  },
+  "scripts": {
+    "build": "vue-cli-service build --mode production",
+    "build:dev": "vue-cli-service build --mode development",
+    "build:lib": "vue-cli-service build --target lib  --name vue-okr-tree src/lib/index.js",
+    "dev": "vue-cli-service serve --open",
+    "lint": "vue-cli-service lint",
+    "serve": "vue-cli-service serve"
+  },
+  "version": "1.0.6"
+}
